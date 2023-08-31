@@ -1,0 +1,5 @@
+global-styling:
+  css:
+    theme:
+      plugins/font-awesome/css/font-awesome.min.css: {}
+      css/style.css: {}

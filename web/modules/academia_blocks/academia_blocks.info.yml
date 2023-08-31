@@ -1,0 +1,7 @@
+name: Academia Blocks
+description: Provides all blocks for academia theme.
+type: module
+core_version_requirement: ^10
+dependencies:
+  - drupal:block
+  - drupal:config

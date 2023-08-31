@@ -1,0 +1,54 @@
+// Bootstrap variables (overrides).
+
+// override default bootstrap colors for accessibility
+//$white: #fff !default;
+//$black: #000 !default;
+//$gray-700: #495057 !default;
+
+$blue: #003CC5 !default;
+$nav-blue:#174873;
+$nav-blue-text:#ffffff;
+//$cyan: #006170 !default;
+//$pink: #e21181 !default;
+//$green: #008a00 !default;
+
+//$breadcrumb-divider-color: $gray-700 !default;
+//$breadcrumb-active-color: $gray-700 !default;
+
+//$navbar-light-color: rgba($black, .6) !default;
+//$navbar-dark-color: rgba($white, .6) !default;
+// scss-docs-start theme-color-variables
+/*$primary:       $blue !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;*/
+$form-text-margin-top: 0;
+$legend-font-size: 1rem;
+$table-cell-padding-x: .75rem;
+
+/*#5375e2	RGB(83, 117, 226)	—	—
+#7791a1	RGB(119, 145, 161)	—	—
+#f65868	RGB(246, 88, 104)	—	—
+#f3aa92	RGB(243, 170, 146)	—	—
+#5c616e	RGB(92, 97, 110)	—	—
+#fefefe	RGB(254, 254, 254)
+#174873 
+
+*/

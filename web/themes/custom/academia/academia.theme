@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Academia theme file.
+ */
+/**
+ * Debuger().
+ */
+if(!function_exists('pprint')){
+function pprint($data){
+    echo '<pre>';
+    print_r($data);
+    echo '</pre>';
+}
+}
+/**
+ * Implements theme_preprocess_page().
+ */
+function academia_preprocess_page(&$variables) {
+  // Pass variables to theme.
+  $variables['academia_container'] = theme_get_setting('b5_top_container','bootstrap5');
+  // Navbar colour theme.
+ 
+
+}
+/**
+ * Implements template_preprocess_region().
+ */
+function academia_preprocess_region(&$variables) {
+  // Pass variables to theme.
+  $variables['academia_container'] = theme_get_setting('b5_top_container','bootstrap5');
+  // Navbar colour theme.
+  $variables['academia_navbar_schema'] = theme_get_setting('b5_navbar_schema','bootstrap5');
+  $variables['academia_navbar_bg_schema'] = theme_get_setting('b5_navbar_bg_schema','bootstrap5');
+
+
+}
+/**
+ * Implements template_preprocess_views_view_fields().
+ */
+function academia_preprocess_views_view_fields(&$variables) {
+    $view = $variables['view'];
+    //pprint($view);
+}

@@ -1,0 +1,108 @@
+/*
+    Created on : Aug 29, 2023, 3:07:30 PM
+    Author     : anup
+*/
+$topbar-font-size: 14px;
+.region{
+    
+    &.region-top-bar{
+        background-color: $nav-blue;
+        height: 40px;
+        .container{
+            height: 100%;
+        }
+        ul{
+             display: inline-block;
+                padding: 0;
+                margin: 0;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                }
+        }
+        .block{
+            color: $nav-blue-text;
+            .block-title{
+                display: none;
+                padding: 0;
+                margin: 0;
+                font-size: $topbar-font-size;
+            }
+            ul.social-link{
+               
+                >li{
+                    list-style: none;
+                    display: inline-block;
+                    a{
+                        display: inline-block;
+                        padding: 0 5px;
+                        text-align: center;
+                        .link-text{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            
+            &.block-language{
+                margin-right: 8px;
+                >ul{
+                    padding: 0;
+                    margin: 0;
+                    >li{
+                        list-style: none;
+                        a{
+                            color:$nav-blue-text;
+                            text-decoration: none;
+                            font-size: $topbar-font-size;
+                            &.is-active{
+                                 color: $warning;
+                            }
+                        }
+                        padding: 0px 5px;
+                        &:first-child{
+                            position: relative;
+                            &:after{
+                                content: " ";
+                                width: 1px;
+                                height: 14px;
+                                position: absolute;
+                                right: 0px;
+                                top: 50%;
+                                margin-top: -7px;
+                                background-color: rgba($nav-blue-text,.7);
+                            }
+                        }
+                    }
+                }
+            }
+            .dropdown-usermenu{
+                position: relative;
+                .btn{
+                    background: transparent;
+                    border: 0;
+                    padding: 0;
+                }
+                .dropdown-menu{
+                    left: auto!important;
+                    right: 0!important;
+                    border-radius: 0;
+                    background-color: $nav-blue;
+                    box-shadow: rgba(255, 255,255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
+                    ul{
+                        >li{
+                            display: block;
+                            a{
+                                padding: 3px 8px;
+                                color:$nav-blue-text;
+                                &:hover{
+                                    color: $warning;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }  
+}

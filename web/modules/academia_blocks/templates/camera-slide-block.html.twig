@@ -1,0 +1,12 @@
+{% if text is defined  %}
+  <p>{{ text }}</p>
+{% endif %}
+<pre>
+    {{ dump(slides) }}
+</pre>
+{% for slide in slides %}
+  {% if slide.field_slider_image is not empty %}
+   <img src="{{ file_url(slide.field_slider_image|field_target_entity.field_media_image.entity.uri.value) }}" 
+     alt="" />
+   {% endif %}
+{% endfor %}

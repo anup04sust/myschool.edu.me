@@ -1,0 +1,14 @@
+/*
+Here comes the text of your license
+Each line should be prefixed with 
+*/
+/*
+    Created on : Aug 30, 2023, 7:18:11 PM
+    Author     : anup
+*/
+.region{
+    &.region-nav-branding{
+       // background-color: darken($nav-blue, 10%);
+        background-color: lighten($nav-blue, 10%);
+    }
+}

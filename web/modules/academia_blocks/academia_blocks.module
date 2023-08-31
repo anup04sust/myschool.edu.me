@@ -1,0 +1,27 @@
+<?php
+/**
+ * Debuger().
+ */
+if(!function_exists('pprint')){
+function pprint($data){
+    echo '<pre>';
+    print_r($data);
+    echo '</pre>';
+}
+}
+/**
+ * Implements hook_theme().
+ *
+ * We use hook_theme to define the templates used.
+ */
+function academia_blocks_theme($existing, $type, $theme, $path) {
+  return [
+    'camera_slide_block' => [
+      'variables' => [
+        'text' => 'Hello',
+        'slides' => [],
+      ],
+    ],
+
+  ];
+}
