@@ -24,4 +24,4 @@ regions:
 libraries-override:
   bootstrap5/global-styling: false
 dependencies:
-  - drupal:fontawesome
+  - custom:academia_blocks
