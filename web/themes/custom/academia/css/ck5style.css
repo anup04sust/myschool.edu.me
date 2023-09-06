@@ -94,6 +94,14 @@
       Created on : Aug 30, 2023, 7:18:11 PM
       Author     : anup
   */
+  /*
+  Here comes the text of your license
+  Each line should be prefixed with 
+  */
+  /*
+      Created on : Sep 4, 2023, 6:45:21 PM
+      Author     : anup
+  */
 }
 .ck-content :root,
 .ck-content [data-bs-theme=light] {
@@ -12007,7 +12015,9 @@ a > .ck-content code {
 }
 .ck-content .region.region-nav-main .primary-navbar {
   padding: 0;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  box-shadow: rgba(23, 72, 115, 0.5) 0px 8px 10px -3px;
+  position: relative;
+  z-index: 1;
 }
 .ck-content .region.region-nav-main .navigation {
   width: 100%;
@@ -12081,6 +12091,9 @@ a > .ck-content code {
 }
 .ck-content .region.region-nav-main .navigation ul.navbar-nav li a:hover:before, .ck-content .region.region-nav-main .navigation ul.navbar-nav li a.is-active:before {
   height: 3px;
+}
+.ck-content .region.region-banner {
+  background-color: white;
 }
 
 /*# sourceMappingURL=ck5style.css.map */

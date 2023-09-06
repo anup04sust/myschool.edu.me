@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/bootstrap": "^3.29",
         "drupal/bootstrap5": "^3.0",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
@@ -25,8 +26,9 @@
         "drupal/imce": "^3.0",
         "drupal/menu_item_fields": "^1.10",
         "drupal/paragraphs": "^1.15",
+        "drupal/pathauto": "^1.11",
         "drupal/twig_field_value": "^2.0",
-        "drush/drush": "^11"
+        "drush/drush": "^11.6"
     },
     "conflict": {
         "drupal/drupal": "*"
