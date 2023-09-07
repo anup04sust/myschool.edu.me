@@ -10,29 +10,13 @@
             pagination: true,
             thumbnails: false,
             loader:'none',
-<<<<<<< HEAD
-<<<<<<< HEAD
             fx:'simpleFade',
             imagePath:'sites/all/modules/custom/academia_blocks/images/'
-        });  
-      console.dir('Drupal',Drupal);
-    });
-    Drupal.behaviors.blockCameraSlide = {
-        attach: function attach(context, settings) {
-console.dir('Drupal',settings);
-=======
-=======
->>>>>>> 8cbe71884b5fce84cfda866a9fe2c9537edf48dc
         });  
       
     });
     Drupal.behaviors.blockCameraSlide = {
         attach: function attach(context, settings) {
-
-<<<<<<< HEAD
->>>>>>> 8cbe71884b5fce84cfda866a9fe2c9537edf48dc
-=======
->>>>>>> 8cbe71884b5fce84cfda866a9fe2c9537edf48dc
 
 
         }

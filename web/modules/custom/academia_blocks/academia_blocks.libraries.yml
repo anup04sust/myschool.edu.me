@@ -14,3 +14,4 @@ js_lib:
   dependencies:
     - core/jquery
     - core/drupal
+    - core/jquery.once

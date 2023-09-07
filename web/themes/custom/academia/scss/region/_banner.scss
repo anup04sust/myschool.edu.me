@@ -9,7 +9,55 @@ Each line should be prefixed with
 
 .region{
     &.region-banner{
-        background-color:  lighten($nav-blue, 80%);
+        background-color:  lighten($nav-blue, 2%);
+        min-height: 350px;
+        transition: .5s;
+        .academia-block-camera-slider{
+            margin-bottom: 0px!important;
+            .camera_pag{
+                position: absolute;
+                bottom: 0;
+                z-index: 2;
+                left: 0;
+                width: 100%;
+                .camera_pag_ul{
+                    text-align: center;
+                    height: 20px;
+                    >li{
+                        padding: 0;
+                        margin: 0 0 0 5px;
+                        border-radius: 0;
+                        position: relative;
+                        width: 20px;
+                        height: 20px;
+                        background-color: transparent;
+                        border-width: 10px ;
+                            border-style: solid;
+                            border-color: transparent transparent $nav-blue transparent;
+                        >span{
+                           display: none;
+                        }
+                        &:first-child{
+                            margin-left: 0;
+                        }
+                        &.cameracurrent{
+                             border-color: transparent transparent $warning transparent;
+                        }
+                    }
+                }
+            }
+            .cameraCont{
+                .camerarelative{
+                    width: 50%!important;
+                    
+                    background-color: rgba($nav-blue,.3);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
     }
    
 }

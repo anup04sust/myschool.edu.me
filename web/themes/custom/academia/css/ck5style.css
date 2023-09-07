@@ -12093,7 +12093,52 @@ a > .ck-content code {
   height: 3px;
 }
 .ck-content .region.region-banner {
-  background-color: white;
+  background-color: #194d7c;
+  min-height: 350px;
+  transition: 0.5s;
+}
+.ck-content .region.region-banner .academia-block-camera-slider {
+  margin-bottom: 0px !important;
+}
+.ck-content .region.region-banner .academia-block-camera-slider .camera_pag {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+}
+.ck-content .region.region-banner .academia-block-camera-slider .camera_pag .camera_pag_ul {
+  text-align: center;
+  height: 20px;
+}
+.ck-content .region.region-banner .academia-block-camera-slider .camera_pag .camera_pag_ul > li {
+  padding: 0;
+  margin: 0 0 0 5px;
+  border-radius: 0;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #174873 transparent;
+}
+.ck-content .region.region-banner .academia-block-camera-slider .camera_pag .camera_pag_ul > li > span {
+  display: none;
+}
+.ck-content .region.region-banner .academia-block-camera-slider .camera_pag .camera_pag_ul > li:first-child {
+  margin-left: 0;
+}
+.ck-content .region.region-banner .academia-block-camera-slider .camera_pag .camera_pag_ul > li.cameracurrent {
+  border-color: transparent transparent #ffc107 transparent;
+}
+.ck-content .region.region-banner .academia-block-camera-slider .cameraCont .camerarelative {
+  width: 50% !important;
+  background-color: rgba(23, 72, 115, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=ck5style.css.map */
